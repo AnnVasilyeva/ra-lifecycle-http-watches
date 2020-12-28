@@ -1,0 +1,23 @@
+.clock {
+    position: relative;
+    width: 120px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.clock-delete {
+    text-align: center;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    right: 0;
+}
+
+.clock-name {
+    text-transform: uppercase;
+}
+
+.clock-time {
+    margin-top: 20px;
+}

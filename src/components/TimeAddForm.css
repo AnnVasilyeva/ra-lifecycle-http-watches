@@ -1,0 +1,30 @@
+.timeAddForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.timeAddForm section {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeAddForm input {
+    margin-top: 20px;
+    padding: 8px;
+    min-width: 350px;
+}
+
+.timeAddForm button {
+    padding: 8px 10px;
+    align-self: flex-end;
+    text-transform: uppercase;
+}
+
+.timeAddForm button:hover {
+    background-color: cornflowerblue;
+    color: #fff;
+
+}
+
