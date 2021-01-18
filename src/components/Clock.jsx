@@ -6,9 +6,7 @@ export default class Clock extends Component {
    constructor(props) {
        super(props);
        this.state = {
-           name: this.props.name,
            time: moment().utcOffset(this.props.timezone * 60).format('LTS'),
-           id: this.props.id
        };
    }
 
@@ -32,7 +30,7 @@ export default class Clock extends Component {
     render() {
         return (
             <div className='clock'>
-                <span className='clock-name'>{this.state.name}</span>
+                <span className='clock-name'>{this.props.name}</span>
                 <div className='clock-time'>{this.state.time}</div>
                 <button
                     type='button'
